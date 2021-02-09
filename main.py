@@ -2,7 +2,7 @@ import requests
 from prettytable import PrettyTable
 
 city = input('Enter City => ')#City name here
-api = "b70fa075d4b9d69d8fc57f4b199d9f68"#api of https://openweathermap.org get urs from the website
+api = "your api here"#api of https://openweathermap.org get urs from the website
 response = requests.get(f"http://api.openweathermap.org/data/2.5/weather?q={city}&appid={api}")#request a response
 
 #if the response equal 200 = OK thats mean everything is okey
